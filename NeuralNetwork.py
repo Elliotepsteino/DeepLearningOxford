@@ -38,8 +38,8 @@ def main():
     x_test = np.float32(MNIST_data['x_test'][:])
     y_test = np.int32(np.array(MNIST_data['y_test'][:, 0]))
 
-    d = 28 * 28  # dd
-    K = 10  # Kk
+    d = 28 * 28  # d
+    K = 10  # K
     dh = 50
 
     Z = np.zeros(dh)
